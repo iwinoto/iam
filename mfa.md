@@ -64,17 +64,22 @@ Complete the following steps to set up your one-time passcode with an authentica
     It might take up to 5 minutes for you to be able to log back in with MFA set up after it is enabled.
 
 2. Select **Verify** on the **Verification is required** screen to set up MFA with an authenticator app.
-    ![Verify yourself to set up authenticator app](images/2-FA-Verify-01.png)
+    <!-- ![Start verification](images/2-FA-Verify-01.png) -->
+
+    <img alt="Start verification" src="images/2-FA-Verify-01.png" width="75%" />
 3. On the **Enter verification code** screen, if you have not completed the set up of your authenticator app, you will not have a verification code. To complete the set up of your authenticator app, select **Setup your authenticator app**.
-    ![Verify yourself to set up authenticator app](images/2-FA-Verify-02.png)
+    <img alt="Setup your authenticator app" src="images/2-FA-Verify-02.png" width="75%" />
 
 4.  IBM Cloud will send a 6 digit code to the email address registered with your profile. Enter the 6 digit code and click **Verify**.
-    ![Verify yourself to set up authenticator app](images/2-FA-Verify-04.png)
+    <img alt="Verify yourself to set up authenticator app" src="images/2-FA-Verify-04.png" width="75%" />
 
 5. IBM Cloud will generate a QR code. On your Google Authenticator app, select **Begin** to open the **Add account** screen and press **Scan barcode**, or press **Enter a provided key** to enter a manually provided key.
 
     _**Note:** You may need to allow the app to access your camera so it can scan the QR code. Direct your phone camera to your browser window so the QR code is in the frame. This will set up Google Authenticator with the IBM-Cloud account._
-    ![Verify yourself to set up authenticator app](images/authenticator-add-account.png)
+    <img alt="Add IBM Cloud account to Authenticator" src="images/authenticator-add-account.png" width="50%" />
+
+6. Use your smart phone to scan the QR code with the Google Authenticator app.
+    <img alt="Use Authenticator to scan the QR code" src="images/authenticator-scan-QR.png" width="50%" />
 
 7. Google Authenticator will now generate a verification code which will expire at a preset time.
 
